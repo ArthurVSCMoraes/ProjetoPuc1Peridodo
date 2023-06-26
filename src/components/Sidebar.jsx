@@ -118,7 +118,7 @@ const SidebarVideo = ({ active, closeSidebar, course }) => {
         <InfoOfTitle>{course.nome}</InfoOfTitle>
         <InfoOfImages src={ExemploDeThumb} alt={course.nome} width={"400px"} />
         <InfoOfDescription>{course.descricao}</InfoOfDescription>
-        <ButtonOfVideoPanel>Abrir vídeo</ButtonOfVideoPanel>
+        <ButtonOfVideoPanel>Abrir vídeo!!!!</ButtonOfVideoPanel>
       </InfoOf>
     </VideoMenu>
   );
