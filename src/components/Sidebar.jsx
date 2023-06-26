@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "styled-components";
-import ExemploDeThumb from "../images/Exemplo2.svg";
+import ExemploDeThumb from "../images/Exemplo2.png";
 
 const VideoMenu = styled.div`
   background-color: #01002f;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import courses from '../data/courses.json';
 import styled from 'styled-components';
-import ExemploDeThumb from "../images/Exemplo2.svg";
+import ExemploDeThumb from "../images/Exemplo2.png";
 import SidebarVideo from './Sidebar';
 
 const Trail = () => {
