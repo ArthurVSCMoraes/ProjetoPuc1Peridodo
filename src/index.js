@@ -22,6 +22,7 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         loader: rootLoader,
     },
+    //Pagina principal
     {
       path: "/mainpage",
       element: <MainPage />,
