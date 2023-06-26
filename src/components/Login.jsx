@@ -123,27 +123,26 @@ color: black;
 `
 
 const LateralInfosLogin = styled.div`
-background-color: white;
 height: 60vh;
-color: black;
-width: 30%;
-border: 2px solid black;
-// border-radius: 20px;
-position: absolute;
-aling-items: center;
-opacity: 1;
-display: flex;
-position: fixed;
-top: 18%;
-justify-content: center;
-left: 18%;
-// transform: translate(-50%, -50%);
-flex-direction: column;
-align-items: center;
-// -webkit-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
-// -moz-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
-// box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
-padding: 20px;
+  color: black;
+  width: 30%;
+  // border: 2px solid black;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 18%;
+  justify-content: center;
+  left: 18%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px 0px 0px 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  z-index: 10; /* Certifique-se de adicionar um valor de z-index para que o componente fique na frente de outros elementos */
 `
 
 const LoginStyled = styled.div`
@@ -151,8 +150,8 @@ background-color: #076094;
 height: 60vh;
 color: white;
 width: 30%;
-border: 2px solid black;
-// border-radius: 20px;
+// border: 2px solid black;
+border-radius: 20px 20px 20px 0px;
 position: absolute;
 aling-items: center;
 opacity: 1;
@@ -316,7 +315,7 @@ background-color: white;
 height: 60vh;
 color: black;
 width: 30%;
-border: 2px solid black;
+// border: 2px solid black;
 // border-radius: 20px;
 position: absolute;
 aling-items: center;
@@ -333,6 +332,13 @@ align-items: center;
 // -moz-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
 // box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
 padding: 20px;
+background: rgba(255, 255, 255, 0.3);
+border-radius: 0px 20px 20px 0px;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+z-index: 10; /* Certifique-se de adicionar um valor de z-index para que o componente fique na frente de outros elementos */
+
 `
 
 const RegisterStyled = styled.div`
@@ -340,8 +346,8 @@ background-color: #076094;
 height: 60vh;
 color: white;
 width: 30%;
-border: 2px solid black;
-// border-radius: 20px;
+// border: 2px solid black;
+  border-radius: 20px 0px 0px 20px;
 position: absolute;
 aling-items: center;
 opacity: 1;
